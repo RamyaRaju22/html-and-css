@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>REGISTRATION FORM</title>
+	</head>
+	<body bgcolor="green">
+		<form>
+			<table>
+				<tr>
+					<td>First name:</td>
+					<td><input type="text" maxlength="10"></td>
+				</tr>
+				<tr>
+					<td>Last name:</td>
+					<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td><input type="email" pattern="[a-z0-9,%+-]+@[a-z0-9.]+\.[a-z0{2,}$"></td>
+				</tr>
+				<tr>
+					<td>Contact number:</td>
+					<td><input type="number"></td>
+				</tr>
+				<tr>
+					<td>Gender:</td>
+					<td>
+						<input type="radio" name="gen" checked>Male
+                        <input type="radio" name="gen">Female
+                    </td>
+                </tr>
+                <tr>
+                	<td>Date of Birth:</td>
+                	<td><input type="date" min="1990-01-01" max="2010-12-31"></td>
+                </tr>
+                <tr>
+                	<td>Age:</td>
+                	<td><input type="number" min="19" max="35" step="1"></td>
+                </tr>
+                <tr>
+                	<td>Address:</td>
+                	<td><textarea placeholder="WRITE YOUR ADDRESS" rows="10" cols="50"></textarea></td>
+                </tr>
+                <tr>
+                	<td>Job Function:</td>
+                	<td>
+                		<select>
+                		<option value="Campaign Mangament">Campaign Management</option>
+                		<option value="CRM Administration">CRM Administration</option>
+                		<option value="Email Developer">Email Developer</option>
+                		<option value="Partner">Partner</option>
+                	</select>
+                </td>
+            </tr>
+            <tr>
+            <td>Hobbies:</td>
+            <td><textarea placeholder="MENtION YOUR INTERSTS" rows="8" cols="40"></textarea></td>
+            
+        </tr>
+        
+        			<tr>
+        				<td>Experience:</td>
+        				<td><input type="text" placeholder="Company Name"></td><td><input type="number" min="3" max="7" placeholder="Years of Experience"></td>
+        			</tr>
+        			<tr>
+        				<td>Interester Companies:</td>
+        				<td><input list="companies"></td>
+        			</tr>
+        			<datalist id="companies">
+        				<option value="Oracle"></option>
+        				<option vale="HP"></option>
+        				<option value="TCS"></option>
+        			</datalist>
+
+        					
+        				
+        			</tr>
+        			<tr>
+        				<td><input type="submit"></td>
+        				<td><input type="reset"></td>
+        			</tr>
+        			<tr><iframe src="http://youtube.com/embed/PuYSoQr8EAA" width="400" height="500" frameborder="0"></iframe>
+        			</tr>
+        					     		</table>
+		</form>
+			
+</html>
